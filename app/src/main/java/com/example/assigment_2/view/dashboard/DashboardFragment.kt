@@ -1,4 +1,4 @@
-package com.example.assigment_2.ui.dashboard
+package com.example.assigment_2.view.dashboard
 
 import android.os.Bundle
 import android.view.LayoutInflater
