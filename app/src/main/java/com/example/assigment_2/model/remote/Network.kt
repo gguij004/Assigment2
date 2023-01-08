@@ -20,11 +20,11 @@ class Network {
     }
 
     private fun createOkHttpClient(): OkHttpClient {
-        val logginInterceptor = HttpLoggingInterceptor()
-        logginInterceptor.level = HttpLoggingInterceptor.Level.BASIC
+        val loginInterceptor = HttpLoggingInterceptor()
+        loginInterceptor.level = HttpLoggingInterceptor.Level.BASIC
 
         val client = OkHttpClient.Builder()
-            .addInterceptor(logginInterceptor)
+            .addInterceptor(loginInterceptor)
             .build()
 
         return client

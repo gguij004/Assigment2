@@ -1,10 +1,5 @@
 package com.example.assigment_2.model
 
-//"artistName":
-//"collectionName":
-//"artworkUrl60":
-//"trackPrice":
-
 data class ItunesResponse(
     val resultCount: Int,
     val results: List<ItunesInfo>
@@ -16,4 +11,5 @@ data class ItunesInfo(
     val artworkUrl60: String,
     val collectionName: String,
     val trackPrice: Double,
+    val previewUrl: String
 )

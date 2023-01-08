@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_rock">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.assigment_2.view.home.HomeFragment"
+        android:id="@+id/navigation_rock"
+        android:name="com.example.assigment_2.view.screens.RockFragment"
         android:label="@string/title_rock"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/itunes_layout" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.assigment_2.view.dashboard.DashboardFragment"
+        android:id="@+id/navigation_classic"
+        android:name="com.example.assigment_2.view.screens.ClassicFragment"
         android:label="@string/title_classic"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/itunes_layout" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.assigment_2.view.notifications.NotificationsFragment"
+        android:id="@+id/navigation_pop"
+        android:name="com.example.assigment_2.view.screens.popFragment"
         android:label="@string/title_pop"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/itunes_layout" />
 </navigation>
